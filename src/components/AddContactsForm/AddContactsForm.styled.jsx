@@ -4,7 +4,7 @@ import { Field, ErrorMessage } from 'formik';
 export const FormWrapper = styled.div`
   padding: 20px 40px;
   background-color: #e6f3fa;
-  border-bottom: 2px solid #4287f5;
+  border-bottom: 2px solid teal;
   text-align: center;
 `;
 
