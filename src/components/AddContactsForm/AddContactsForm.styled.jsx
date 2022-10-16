@@ -39,7 +39,7 @@ export const Input = styled(Field)`
   outline: none;
 
   :focus {
-    border-color: #4287f5;
+    border-color: teal;
   }
 `;
 

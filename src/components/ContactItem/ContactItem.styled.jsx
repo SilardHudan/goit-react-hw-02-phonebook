@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RiUserFill } from 'react-icons/ri';
+import { RiUser4Fill } from 'react-icons/ri';
 
 export const Item = styled.li`
   display: flex;
@@ -17,12 +17,12 @@ export const Contact = styled.p`
   font-weight: 500;
 `;
 
-export const IconUser = styled(RiUserFill)`
+export const IconUser = styled(RiUser4Fill)`
   padding: 3px;
-  border: 1px solid #4287f5;
+  border: 1px solid teal;
   border-radius: 50%;
   margin-right: 10px;
-  color: #4287f5;
+  color: teal;
 `;
 
 export const Button = styled.button`
@@ -32,18 +32,18 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
 
-  color: #242323;
+  color: teal;
   font-size: 30px;
   border: none;
   border-radius: 50%;
-  border: 1px solid #242323;
+  border: 1px solid teal;
   background-color: transparent;
 
   transition: all 100ms linear;
   cursor: pointer;
 
   :hover {
-    background-color:black;
+    border: 1px solid red;
     color: red;
     /* border: 1px solid #fff; */
   }

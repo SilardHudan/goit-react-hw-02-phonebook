@@ -5,20 +5,20 @@
 .item-enter {
   opacity: 0;
 
-  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
 .item-enter-active {
   opacity: 1;
-  transform: translateX(0);
-  transition: all 500ms ease-in;
+  transform: translateY(0);
+  transition: all 700ms ease-in;
 }
 .item-exit {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 .item-exit-active {
   opacity: 0;
-  transform: translateX(+50%);
+  transform: translateY(+50%);
 
-  transition: all 500ms ease-in;
+  transition: all 700ms ease-in;
 }

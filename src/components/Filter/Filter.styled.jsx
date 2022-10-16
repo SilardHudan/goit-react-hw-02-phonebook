@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const FilterWrapper = styled.div`
   padding: 20px 40px;
-  background-color: teal;
-  border-bottom: 2px solid #4287f5;
+  background-color: #e6f3fa;
+  border-bottom: 2px solid teal;
   text-align: center;
 `;
 
@@ -20,6 +20,6 @@ export const Input = styled.input`
   outline: none;
 
   :focus {
-    border-color: #4287f5;
+    border-color: teal;
   }
 `;
